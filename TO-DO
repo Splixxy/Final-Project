@@ -1,0 +1,6 @@
+#1 First import needed resources
+#2 create/ask the user for the path to file
+#3 create a GUI window with the name of the quiz and a button to continue or exit
+#4 create GUI windows for all of the quiz questions that have 4 buttons each with a different awnser to the question
+#5 Telling if the answer supplied was correct or not
+#6 after all the questions have been answered  give a total number of questions answered correctly and what they would eqaute to as a percentage
