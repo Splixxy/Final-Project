@@ -23,18 +23,27 @@ def qCounter(qcount):
     count = 0
     intD = dict()
     while count < qcount:
-        rINT = str(random.randint(0,qcount + 1)
+        rINT = str(random.randint(0,qcount))
         while rINT not in intD:
             if rINT not in intD:
-                rINT[rINT] = rINT
+                intD[rINT] = rINT
+                count = count + 1
             else:
-                rInt = random.randint(0,qcount + 1)
+                rInt = random.randint(0,qcount)
     return intD;
+def DictList(intD,qcount):
+    VDict = dict()
+    dictValues = intD.values()
+    dictVList = list(dictValues)
+    for x in range(0,qcount):
+        
+    dictV0 = dictVList[0]
+
 if isFileSTR == "True":
     qcount = input("Please input the amount of questions on this quiz:")
     qcount = int(qcount)
     intD = qCounter(qcount)
-    print(intD)
+    print(dictV0)
     window.title("Quiz Machine")
     window.rowconfigure(0, minsize=200, weight=1)
     window.columnconfigure([0, 2], minsize=200, weight=1)
