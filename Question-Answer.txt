@@ -1,30 +1,30 @@
-1: Name of bird that starts with P
-1A: Parrot
-1B: Bob
-1C: Snake
-1D: Rake
-1Answer: Parrot
-2: Name of snake that starts with C
-2A: Lew
-2B: Cobra
-2C: SNHU
-2D: You
-2Answer: Cobra
-3: Name of a place that starts with M
+0: Name of bird that starts with P
+0A: Parrot
+0B: Bob
+0C: Snake
+0D: Rake
+0Answer: Parrot
+1: Name of snake that starts with C
+1A: Lew
+1B: Cobra
+1C: SNHU
+1D: You
+1Answer: Cobra
+2: Name of a place that starts with M
+2A: Fire
+2B: Tool
+2C: Museum
+2D: Mool
+2Answer: Museum
+3: Click the word that starts with F
 3A: Fire
-3B: Tool
-3C: Museum
-3D: Mool
-3Answer: Museum
-4: Click the word that starts with F
-4A: Fire
-4B: Tire
-4C: Mire
-4D: Liar
-4Answer: Fire
-5: Click the word that starts with C
-5A: Sat
-5B: Mat
-5C: Bat
-5D: Cat
-5Answer: Cat
+3B: Tire
+3C: Mire
+3D: Liar
+3Answer: Fire
+4: Click the word that starts with C
+4A: Sat
+4B: Mat
+4C: Bat
+4D: Cat
+4Answer: Cat
