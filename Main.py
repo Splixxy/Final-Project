@@ -26,7 +26,6 @@ def V(increase):
     QCB = "%sB" % Vlist[increase]
     QCC = "%sC" % Vlist[increase]
     QCD = "%sD" % Vlist[increase]
-    print(Vlist)
 def counter():
     global increase
     if increase < qcount:
@@ -56,7 +55,6 @@ def ContinueWindow():
     Q3 = next( v for k,v in QDict.items() if k.startswith(QCC))
     Q4 = next( v for k,v in QDict.items() if k.startswith(QCD))
     QL = len(Q)
-    print(Q)
     newWindow = tk.Toplevel(window)
     newWindow.title("Question %s" % QT)
     newWindow.rowconfigure(0, minsize=200, weight=1)
